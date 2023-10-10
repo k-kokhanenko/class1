@@ -1,6 +1,4 @@
-// TODO: write your code here
-import sum from './basic';
+import Zombie from './Zombie';
 
-console.log('worked');
-
-console.log(sum([1, 2]));
+const a = Zombie('Some name');
+console.log(a);
